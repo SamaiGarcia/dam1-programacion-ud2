@@ -11,7 +11,11 @@ public class InstanciacionReferenciaYComparacion {
         // 4. Observa qué valores se imprimen en cada caso.
 
         // Tu código aquí ↓
+         Cancion c1 = new Cancion(); 
+         Cancion c2 = new Cancion("Clocks", "Coldplay");
 
+        System.out.println(c1);
+        System.out.println(c2);
         // ================================
         // EJERCICIO 2: Comparación con ==
         // ================================
@@ -19,7 +23,11 @@ public class InstanciacionReferenciaYComparacion {
         // 2. Imprime el resultado de (c3 == c4).
 
         // Tu código aquí ↓
+         Cancion c3 = new Cancion("Clocks", "Coldplay");
+         Cancion c4 = new Cancion("Clocks", "Coldplay");
 
+         System.out.println(c3 == c4);
+         //resutado es false 
         // ================================
         // EJERCICIO 3: Comparación con equals()
         // ================================
@@ -27,7 +35,7 @@ public class InstanciacionReferenciaYComparacion {
         // imprime el resultado de (c3.equals(c4)).
 
         // Tu código aquí ↓
-
+          
         // ================================
         // EJERCICIO 4: Comparación en Pelicula
         // ================================
